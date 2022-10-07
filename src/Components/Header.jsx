@@ -1,6 +1,9 @@
-export function Header (){
+import style from './Header.module.css'
+
+export function Header() {
     return (
-        <strong> Ignite Feed </strong>
-          
+        <header className={style.header}>
+            <strong > Ignite Feed </strong>
+        </header>
     );
 }
